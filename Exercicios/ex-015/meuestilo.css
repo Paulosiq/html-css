@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body {
+    background-color: lightgoldenrodyellow;
+    font-family: Arial;
+    font-size: 20px ;
+}
+h1 {
+    color: maroon;
+    background-color: rgb(218, 165, 32);
+    text-align: center;
+    text-decoration: underline;
+    border-radius: 8px;
+
+}
+h2 {
+    color: darkred;
+    text-align: center;
+    font-size: 1em;
+}
+p {
+    text-align: justify;
+    margin-left: 300px;
+    margin-right: 300px;
+    
+}
+a {
+    text-decoration: dashed;
+    
+}

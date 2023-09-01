@@ -1,0 +1,30 @@
+h1{
+    font-family: Arial;
+    color: #090180;
+}
+h2{
+    font-family: Arial;
+    color: #0c2458;
+}
+h3{
+    font-family: Arial;
+    color: #000000;
+}
+h4{
+    font-family: Arial;
+    color: #000000;
+}
+p{
+    font-family: Calibri;
+    background-color: #d8c2cf;
+}
+body{
+    text-align: center;
+    margin-left: 355px;
+    margin-right: 355px;
+    background-image: url(pt-600R.png);
+    background-size: 15,9cm;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
