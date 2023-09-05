@@ -25,13 +25,12 @@ header {
     background-color: black;
     color: white;
     text-align: center;
-    height: 20%;
 }
 header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
     font-family: var(--fonte2);
-    font-size: 10vw;
+    font-size: 8vw;
 }
 header > p {
     padding-bottom: 50px;
@@ -43,7 +42,9 @@ header a, footer a {
     font-weight: bolder;
 }
 header a:hover, footer a:hover {
-    text-decoration: underline;
+    background-color: rgb(34, 34, 34);
+    border-radius: 6px;
+    padding: 5px;
 }
 section {
     font-size: 2.5vw;
@@ -59,8 +60,10 @@ section.normal {
     
 }
 section.normal > p {
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.548);
-    padding-bottom: 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.411);
+}
+section p.duplo {
+    margin-top: 35px;
 }
 section.imagem {
     background-color: rgb(51, 51, 51);
@@ -77,5 +80,8 @@ footer {
     background-color: black;
     color: white;
     text-align: center;
-    padding: 8px;
+    padding: 6px;
+}
+footer p {
+    font-size: 0.7em;
 }
